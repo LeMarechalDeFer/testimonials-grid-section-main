@@ -1,0 +1,90 @@
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('./fonts/BarlowSemiCondensed-Medium.ttf') format('truetype');
+    font-weight: 500 ;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('./fonts/BarlowSemiCondensed-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('./fonts/BarlowSemiCondensed-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('./fonts/BarlowSemiCondensed-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+
+:root{
+    --moderate-violet: hsl(263, 55%, 52%);
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%) ;
+
+    --light-gray: hsl(0, 0%, 81%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+
+    /* --font-size: 81.25%; */
+    --font-size: 1.3rem;
+    --font-family: 'Barlow Semi Condensed', sans-serif;
+    /* la solution de replie de google sera sans cherif */
+    
+}
+
+
+
+/* 
+mobile : 375px
+desktop 1440px
+*/
+
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+  
+
+
+.medium-opacity{
+    opacity: 50%;
+}
+
+.large-opacity{
+    opacity: 70%;
+}
+
+
+body{
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+
+    color: var(--white);
+    background-color: var(--light-grayish-blue);
+
+}
